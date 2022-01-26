@@ -1,6 +1,8 @@
-
+import Prog1Tools.IOTools;
 public class TestClass {
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		String name = IOTools.readString();
+		System.out.println("Hello " + name);
 	}
+	
 }
